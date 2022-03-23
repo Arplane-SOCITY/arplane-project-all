@@ -1,2 +1,3 @@
 - [x] Web Version Is [Here!](https://arplane-socity.github.io/arplane-project-all)
 - [ ] GitHub Version Is [Here!](https://github.com/Arplane-SOCITY/arplane-project-all/)
+![Build Passing Badge](https://app.travis-ci.com/Arplane-SOCITY/arplane-project-all.svg?branch=main)
