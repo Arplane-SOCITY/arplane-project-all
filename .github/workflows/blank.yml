@@ -29,3 +29,17 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "Successfully!"
+  Write_All_Script:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Start Install"
+      - run: echo "Install Script"
+      - run: echo "Create Temporaty File"
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: echo "Download All Script"
+      - run: echo "Script Downloaded"
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "Success!"
